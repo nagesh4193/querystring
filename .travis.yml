@@ -9,5 +9,5 @@ arch:
   - ppc64le
 
 script:
-  - npm audit fix --query
+  - npm audit fix --force
   - npm install
