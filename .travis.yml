@@ -7,3 +7,7 @@ node_js:
 arch:
   - amd64
   - ppc64le
+
+script:
+  - npm audit fix
+  - npm install
